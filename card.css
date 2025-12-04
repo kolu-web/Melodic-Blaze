@@ -1,0 +1,152 @@
+.cardblock{
+    background-color: rgb(0, 0, 0);
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5rem;
+    color: azure;
+    border-radius: 30px;
+    padding: 2rem;
+}
+@media all and (max-width:500px){
+    .cardblock{
+       width: 70%;
+    }
+}
+.cardblock h3{
+    color: rgba(255, 255, 255, 0.897);
+    font-size: xx-large;
+    font-weight: lighter;
+    font-family: fantasy;
+}
+.cardblock p {
+    font-size:larger;
+} 
+.til img{
+    width: 3rem;
+    margin-top: -4rem;
+    margin-left: 5.5rem;
+}
+.yt-acc{
+    width:auto;
+    height:auto;
+}
+.yt-acc img{
+    width: 5rem;
+    border-radius: 100px;
+}
+.yt-acc h1{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 6rem;
+    margin-top: -4.5rem;
+
+}
+.yt h4{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width:10rem;
+    height: auto;
+    background-color: red;
+    border-radius: 25px;
+    margin-left: 5rem;
+    font-weight:bolder;
+    cursor: pointer;
+}
+.yt h4:hover{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width:11rem;
+    height: auto;
+    background-color: red;
+    border-radius: 25px;
+    margin-left: 5rem;
+    font-weight:bolder;
+    cursor: pointer;
+    
+}
+.yt-acc a {
+    text-decoration: none;
+}
+.yt{
+margin :3rem;
+margin-left:10px;
+width:25rem;
+height:auto ;
+padding: .5rem;
+border-radius: 10px;
+align-items: center;
+background-color: #ffffff11;
+}
+@media (max-width:500px){
+    .yt-acc{
+        width: auto;
+        height: 20rem;
+    }
+    .yt{
+        width: 17rem;
+       margin: auto;
+       margin-top: 1rem;
+       margin-left: -1.2rem;
+    }
+    .yt h1{
+        font-size: 1.3em;
+    }
+}
+.jobwork .logo{
+    width: 6rem;
+    margin: 2rem;
+}
+.prf{
+    width: 30rem;
+    height:13rem;
+    margin: auto;
+    background-color: #ffffff11;
+    border:2px solid;
+    border-radius: 20px;
+}
+.prf:hover{
+    background-color: rgba(255, 255, 255, 0.164);
+    color: rgb(61, 242, 255);
+    cursor: pointer;
+}
+ .prf img {
+    width: 10rem;
+    border-radius: 500px;
+    margin:5%;
+}
+.prf a {
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+}
+.prf h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: -8rem;
+    margin-left: 15rem;
+}
+.prf p{
+    margin-left: 11.2rem;
+}
+@media (max-width:500px){
+    .prf{
+        width: 15rem;
+        height: 8rem;
+    }
+    .prf img{
+        width: 6rem;
+    }
+    .prf h1{
+    margin-top: -7rem;
+    margin-left: 8rem;
+    font-size: x-large;
+    }
+    .prf p{
+        font-size:small;
+        margin-left:8rem;
+    }
+
+}
+.popular{
+    width: auto;
+    height: auto;
+    margin: auto;
+}

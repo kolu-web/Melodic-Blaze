@@ -1,0 +1,66 @@
+
+.topage {
+    height:50rem;
+    margin-top: 10rem;
+    margin:0rem;
+    background-color: black;
+   opacity: 0;
+    transition: 600ms ease;
+}
+.topage img{
+    width: 25rem;
+    margin-bottom:1rem;
+}
+.topage h1 {
+    font-family: fantasy;
+    font-weight:500;
+    margin-top: 5rem;
+}
+@media (max-width:500px){
+    .topage{
+        height: 50rem;
+        margin-right: 0rem;
+        padding-left:-50rem ;
+    }
+     .topage img{
+        width:10rem;
+        margin-top: 5rem;
+     }
+     .topage h1{
+        font-size: 120%;
+     }
+}
+.topage .show{
+    opacity: 0;
+}
+.top{
+    height:5rem;
+    background-color: rgba(0, 0, 0, 0);
+    position:fixed;
+    margin-bottom: 5rem;
+}
+.top img{
+    width: 5.5rem;
+    margin-left: 2rem;
+}
+.top h1 {
+    font-family: fantasy;
+    font-size: larger;
+    font-weight:500;
+    margin-left: 8rem;;
+    margin-top: -3rem;
+    color: rgba(255, 255, 255, 0.842);
+}
+.top .show{
+    opacity:1;
+
+}
+@media (max-width:500px){
+ .top img{
+    width: 4.5rem;
+ }    
+ .top h1{
+    margin-top:-2rem;
+    margin-left: 5rem ;
+ }
+}
